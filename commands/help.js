@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
 
   const prefix = require('../models/prefix.js')
 
-  let gprefix = '-'
+  let gprefix = '.'
 
   if (message.channel.type !== 'dm') {
     prefix.find({
